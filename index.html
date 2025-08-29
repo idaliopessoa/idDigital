@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon_32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certfy Document Verifier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <style>
+      /* Custom styles for a sleeker slider */
+      body {
+        background-color: #f0f4f8; /* A neutral background to make the card pop */
+      }
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-pagination-bullet {
+        background: #6DB5A6 !important;
+        opacity: 0.5 !important;
+      }
+      .swiper-pagination-bullet-active {
+        opacity: 1 !important;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#6DB5A6',
+              'doc-green': '#e0f2f1',
+              'doc-text-primary': '#004d40',
+              'doc-text-secondary': '#00796b',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['"EB Garamond"', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.2.0",
+      "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+      "react/": "https://esm.sh/react@18.2.0/",
+      "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+      "firebase/": "https://esm.sh/firebase@12.1.0/",
+      "swiper/react": "https://esm.sh/swiper@11.1.4/react?deps=react@18.2.0",
+      "swiper/modules": "https://esm.sh/swiper@11.1.4/modules",
+      "swiper/": "https://esm.sh/swiper@11.1.4/",
+      "qrcode.react": "https://esm.sh/qrcode.react@3.1.0?deps=react@18.2.0"
+    }
+  }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

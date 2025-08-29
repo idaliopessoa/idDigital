@@ -1,0 +1,5 @@
+{
+  "name": "Copy of ID DIgital Firebase",
+  "description": "An application to view document details by fetching data from Certfy API and caching it in Firebase.",
+  "requestFramePermissions": []
+}
