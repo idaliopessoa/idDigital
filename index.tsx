@@ -2,9 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-
-// Since we are not creating an index.css file, imports are not needed.
-// Global styles are handled by Tailwind CDN in index.html.
+import './src/index.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

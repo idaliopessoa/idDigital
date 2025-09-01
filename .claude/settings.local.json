@@ -7,7 +7,17 @@
       "Bash(git config:*)",
       "Bash(gh repo create:*)",
       "Bash(git remote add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(winget install:*)",
+      "Bash(refreshenv)",
+      "Bash(where gh)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create idDigital --public --description \"React Firebase ID Digital application\")",
+      "WebFetch(domain:firebase.google.com)",
+      "WebSearch",
+      "WebFetch(domain:firebase.blog)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx tailwindcss init:*)"
     ],
     "deny": [],
     "ask": []
