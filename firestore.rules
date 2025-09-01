@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regra específica para a collection 'documents'
+    match /documents/{documentId} {
+      // Permite leitura pública
+      allow read: if true;
+      
+      // Permite escrita pública (ajuste conforme necessidade)
+      allow write: if true;
+    }
+  }
+}
