@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "id-digital",
     "public": "dist",
     "ignore": [
       "firebase.json",
