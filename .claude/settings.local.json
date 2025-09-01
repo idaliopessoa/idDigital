@@ -17,7 +17,8 @@
       "WebFetch(domain:firebase.blog)",
       "Bash(npm install:*)",
       "Bash(npm run build:*)",
-      "Bash(npx tailwindcss init:*)"
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npm uninstall:*)"
     ],
     "deny": [],
     "ask": []
